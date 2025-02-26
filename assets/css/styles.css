@@ -465,12 +465,20 @@ img {
   .work__img {
     flex-basis: auto;
     width: 90%;
+    margin-left: 0;
   }
   .work__text {
     flex-basis: auto;
     width: 90%;
     margin-left: 0;
     margin-top: 1rem;
+  }
+  .section-title::after {
+    top: 2.5rem;
+    width: 50px;
+  }
+  .section-title {
+    margin-bottom: var(--mb-2);
   }
 }
 
