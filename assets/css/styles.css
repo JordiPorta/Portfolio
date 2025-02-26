@@ -441,3 +441,44 @@ img {
     width: 450px;
   }
 }
+/* ===== SOLUCIÓN: Ajustes para el menú en móviles ===== */
+@media screen and (max-width: 600px) {
+  .home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home__img {
+    position: static;
+    width: 200px;
+    margin-top: 1rem;
+  }
+}
+
+/* ===== SOLUCIÓN: Ajustes en la sección de proyectos en móviles ===== */
+@media screen and (max-width: 768px) {
+  .work__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work__img {
+    flex-basis: auto;
+    width: 90%;
+  }
+  .work__text {
+    flex-basis: auto;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+/* ===== SOLUCIÓN: Márgenes en móviles ===== */
+@media screen and (max-width: 768px) {
+  .bd-grid {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}
+
