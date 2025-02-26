@@ -488,19 +488,28 @@ img {
     max-width: 100%;
     padding: 0 1rem;
   }
+  img[src="../Portfolio/assets/img/profile.png"] {
+    display: none;
+  }
   .hero__content { 
     padding-top: 5rem; /* Ajusta según sea necesario */
   }
-
+  
   .home__social {
     display: flex;
     flex-direction: row; /* Asegura que estén en fila */
     justify-content: center; /* Centra los iconos */
     gap: 1rem; /* Espacio entre iconos */
   }
-
+  .about__container {
+    margin-top: -1rem;
+  }
+  .section-title {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+  }
+  
   .home__social-icon {
     margin-bottom: 0;
   }
 }
-
