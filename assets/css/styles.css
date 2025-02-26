@@ -488,5 +488,19 @@ img {
     max-width: 100%;
     padding: 0 1rem;
   }
+  .hero__content { 
+    padding-top: 5rem; /* Ajusta según sea necesario */
+  }
+
+  .home__social {
+    display: flex;
+    flex-direction: row; /* Asegura que estén en fila */
+    justify-content: center; /* Centra los iconos */
+    gap: 1rem; /* Espacio entre iconos */
+  }
+
+  .home__social-icon {
+    margin-bottom: 0;
+  }
 }
 
