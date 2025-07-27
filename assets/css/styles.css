@@ -212,7 +212,8 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  transform: scale(0.7);
+  transform-origin: bottom right;
 }
 .home__blob {
   fill: var(--first-color);
